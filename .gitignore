@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.lst
+
+# VSCode generated files that may contain local paths
+.vscode/*.log
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log
+.vscode/*.state.json
+
+# IDE specific files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Debug files
+*.su
